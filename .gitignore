@@ -131,3 +131,7 @@ dmypy.json
 
 # User-specific stuff:
 .idea/
+
+
+*.session
+*.session-journal

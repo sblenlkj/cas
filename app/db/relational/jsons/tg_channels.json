@@ -1,14 +1,6 @@
-[
-    {
-        "link": "https://t.me/atompromo",
-        "name": "Atom"
-    },
-    {
-        "link": "https://t.me/treputintreputin",
-        "name": "Treputin"
-    },
-    {
-        "link": "https://t.me/azartlimonchyk",
-        "name": "Limon"
-    }
-]
+{
+    "atom": "https://t.me/atompromo", 
+    "treputin": "https://t.me/treputintreputin", 
+    "limon": "https://t.me/azartlimonchyk",
+    "dima": "https://t.me/+gImjQuW52AZiMzZi"
+}

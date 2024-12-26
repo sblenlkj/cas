@@ -3,15 +3,14 @@ Abstract class for fetching data from different providers
 """
 
 from abc import ABC, abstractmethod
-
 from parsers.api_result import ApiResult
 
 
-class ApiClient(ABC):  # pylint: disable=too-few-public-methods
+class ApiClient(ABC): 
     """Abstract class for fetching data from different providers"""
 
     @abstractmethod
-    async def fetch_data(self, word: str) -> ApiResult:
+    def work(self, message: str, **args) -> ApiResult:
         """
         Async method for fetching data
         :param word: Word to be searched, as typed into the search bar
