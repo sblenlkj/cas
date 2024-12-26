@@ -1,7 +1,7 @@
 from parsers.api_client import ApiClient
 import clipboard
 
-class Atom(ApiClient):
+class Treputin(ApiClient):
     def work(self, message): 
         print(message.message)
 

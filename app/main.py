@@ -18,4 +18,4 @@ log = get_logger()
 
 cl = Our_tg_client()
 cl.set()
-cl.run()
+cl.run(debug=True, message_number=1, channel_name="treputin")
