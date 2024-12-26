@@ -16,4 +16,4 @@ class TG_DAL:
         file = "tg_channels.json"
         dct = json.load(open(f"{self.path}/{file}"))
 
-        return [TgChannel(**d) for d in dct]
+        return dct
